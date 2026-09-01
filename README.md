@@ -72,10 +72,6 @@ Documents → Ingestion → Chunking → Embeddings → pgvector → Semantic Se
 | **[Scraper-BRICS-Expansion-De-Dollarization-Tracker](https://github.com/BELBINBENORM/Scraper-BRICS-Expansion-De-Dollarization-Tracker)** | Tracker for BRICS expansion and de-dollarization trends |
 | **[food-price-dataset](https://github.com/BELBINBENORM/food-price-dataset)** | Auto-updating food-security pipeline — FAO Food Price Index, World Bank commodity & fertiliser prices, crop yields, ML-ready features, refreshed to Kaggle every Monday via GitHub Actions |
 
-## 📚 Practice & Experiments
-
-- **[my_kaggle_ml_practice](https://github.com/BELBINBENORM/my_kaggle_ml_practice)** — ML practice notebooks built in Colab (including GPU experiments), version-controlled for reproducibility
-- **[my_projects](https://github.com/BELBINBENORM/my_projects)** — general project archive
 
 ---
 
