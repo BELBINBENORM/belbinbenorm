@@ -1,391 +1,399 @@
-# BENO
+<div align="center">
 
-### AI Engineer · Machine Learning · Generative AI · AI Systems
+# ⚡ BELBIN BENO R M
 
-**Python × Machine Learning × LLMs × RAG × AI Agents × FastAPI**
+### AI Engineer · Machine Learning · Generative AI · AI Engineering
 
-I build machine learning models and AI applications that move beyond notebooks into usable systems.
+**Python • ML • LLMs • RAG • AI Agents • FastAPI • PostgreSQL**
 
-My work spans **predictive modeling, ensemble learning, Generative AI, RAG systems, LLM applications, AI agents, APIs, databases, and automation**.
+<br/>
 
-Currently focused on moving from **RAG + LLM applications toward production-oriented Agentic AI Engineering**.
+<a href="https://belbin-beno-rm-portfolio.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐_PORTFOLIO-ENTER_THE_DATA_UNIVERSE-111111?style=for-the-badge" />
+</a>
+<a href="https://github.com/BELBINBENORM">
+  <img src="https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://www.kaggle.com/belbino">
+  <img src="https://img.shields.io/badge/KAGGLE-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/belbino/">
+  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=BELBINBENORM&style=flat-square&color=blueviolet" />
+
+</div>
 
 ---
 
-## ⚡ What I Build
+## 🧬 BENO // DATA → INTELLIGENCE → SYSTEMS
+
+I build systems across the full path from **data to intelligent applications**.
 
 ```text
-DATA
-  ↓
-ANALYSIS
-  ↓
-MACHINE LEARNING
-  ↓
-GENERATIVE AI
-  ↓
-RAG / LLM APPLICATIONS
-  ↓
-AI AGENTS + TOOLS
-  ↓
-PRODUCTION SYSTEMS
+             RAW DATA
+                 │
+                 ▼
+        ┌─────────────────┐
+        │  DATA ANALYSIS  │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ MACHINE LEARNING│
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │   GENERATIVE AI │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │    RAG + LLMs   │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ AI AGENTS + API │
+        └────────┬────────┘
+                 │
+                 ▼
+          PRODUCTION AI
 ```
 
-My approach is simple:
+My focus is not just training models.
 
-**Don't just train a model. Build the system around it.**
-
----
-
-## 🧠 Core Engineering Stack
-
-### AI / Generative AI
-
-`RAG` · `LLMs` · `LangChain` · `Prompt Engineering`
-`Embeddings` · `Vector Search` · `AI Agents` · `Tool Calling`
-`OpenAI` · `Gemini` · `Groq` · `Ollama` · `Llama`
-
-### Machine Learning
-
-`Scikit-learn` · `XGBoost` · `LightGBM` · `CatBoost`
-`Stacking` · `Voting Ensembles` · `Optuna`
-`Feature Engineering` · `Cross Validation` · `OOF`
-`SHAP` · `LIME` · `Time Series Forecasting`
-
-### AI Engineering
-
-`Python` · `FastAPI` · `Pydantic` · `SQLAlchemy`
-`PostgreSQL` · `pgvector` · `REST APIs`
-`Docker` · `pytest` · `Git` · `GitHub`
-
-### Data
-
-`Pandas` · `SQL` · `ETL` · `Data Validation`
-`Web Scraping` · `BeautifulSoup` · `Requests`
-`Power BI` · `Excel` · `Tableau`
-
-My portfolio data specifically documents Python, SQL, PostgreSQL, pgvector, FastAPI, RAG, LLM integration, AI agents, tool calling, document intelligence, ML ensembles, Optuna, SHAP/LIME, Docker, pytest, ETL, scraping and analytics.
+**I build the engineering layer around them.**
 
 ---
 
-# 🚀 Featured Systems
+# 🚀 FEATURED SYSTEM
 
-## AI Knowledge Platform
+## 🧠 AI Knowledge Platform
 
-**FastAPI + PostgreSQL + pgvector + RAG + LLM + Agents**
+> **FastAPI + PostgreSQL + pgvector + RAG + LLM + Agents + Docker**
 
-A backend AI knowledge platform designed around document ingestion, chunking, embeddings, semantic retrieval and grounded responses.
+An AI knowledge platform designed around document ingestion, embeddings, semantic retrieval, grounded responses, chat history and agent/tool workflows.
+
+### Architecture
 
 ```text
-Documents
-    ↓
-Ingestion
-    ↓
-Chunking
-    ↓
-Embeddings
-    ↓
-PostgreSQL + pgvector
-    ↓
-Semantic Retrieval
-    ↓
-LLM / Agent
-    ↓
-Grounded Response
+DOCUMENTS
+    │
+    ▼
+INGESTION
+    │
+    ▼
+CHUNKING
+    │
+    ▼
+EMBEDDINGS
+    │
+    ▼
+POSTGRESQL + PGVECTOR
+    │
+    ▼
+SEMANTIC SEARCH
+    │
+    ▼
+RAG
+    │
+    ▼
+LLM / AGENT
+    │
+    ▼
+GROUNDED ANSWER
 ```
 
-The project includes API architecture, database persistence, RAG workflows, agent/tool workflows, automated testing and Docker deployment setup.
+### Stack
 
-**Repository:**
-https://github.com/BELBINBENORM/ai-knowledge-platform
+`Python` `FastAPI` `Pydantic` `SQLAlchemy`
+
+`PostgreSQL` `pgvector` `Embeddings`
+
+`Ollama` `Llama 3.2` `RAG` `Agents` `Tools`
+
+`pytest` `Docker`
+
+<br/>
+
+<a href="https://github.com/BELBINBENORM/ai-knowledge-platform">
+<img src="https://img.shields.io/badge/⚡_VIEW_PROJECT-GitHub-181717?style=for-the-badge&logo=github" />
+</a>
+
+The project data identifies this as your primary GitHub AI project and confirms the FastAPI, PostgreSQL, pgvector, RAG, agent/tool, testing and Docker stack.
 
 ---
 
-## AIMO — Multi-LLM Report Stacking
+# 🔬 SELECTED PROJECTS
 
-A multi-model Generative AI system designed to combine outputs from different LLMs and use a meta-evaluation layer to improve factual consistency.
+### 🧠 AI / Backend
 
-**Models / Technologies**
+| Project                       | Stack                                          | Link                                                                      |
+| ----------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------- |
+| **AI Knowledge Platform**     | FastAPI · PostgreSQL · pgvector · RAG · Agents | [→ Repository](https://github.com/BELBINBENORM/ai-knowledge-platform)     |
+| **Vortex Intelligence Suite** | Python · Data Analysis                         | [→ Repository](https://github.com/BELBINBENORM/vortex-intelligence-suite) |
+| **Vortex KFold Engine**       | Python · Data Analysis                         | [→ Repository](https://github.com/BELBINBENORM/vortex-kfold-engine)       |
 
-`GPT` · `Llama` · `Qwen` · `FastAPI` · `vLLM`
+### 🤖 Machine Learning
 
-The system applies a stacking concept to LLM-generated reports, with a meta-evaluator selecting and synthesizing useful information from multiple model outputs.
+| Project                        | Stack                           | Link                                                                       |
+| ------------------------------ | ------------------------------- | -------------------------------------------------------------------------- |
+| **Safe Stack ML**              | Python · ML · Gradient Boosting | [→ Repository](https://github.com/BELBINBENORM/safe-stack-ml)              |
+| **Evaluate Classification ML** | Python · Scikit-learn           | [→ Repository](https://github.com/BELBINBENORM/evaluate-classification-ml) |
+| **Evaluate Regression ML**     | Python · Scikit-learn           | [→ Repository](https://github.com/BELBINBENORM/evaluate-regression-ml)     |
+| **Mission Control ML**         | Python · Scikit-learn           | [→ Repository](https://github.com/BELBINBENORM/mission-control-ml)         |
+| **ModelBlocks ML MVP**         | Python · Scikit-learn           | [→ Repository](https://github.com/BELBINBENORM/modelblocks-ml-mvp-)        |
+
+These repository names and URLs come directly from your portfolio dataset.
 
 ---
 
-## Precision-5 Diagnostic Stacking
+# 🌍 DATA ENGINEERING & RESEARCH
 
-An advanced machine learning ensemble built around five predictive models:
+I also build automated data collection and research systems.
+
+### 🌐 BRICS Expansion & De-Dollarization Tracker
+
+Python · Requests · BeautifulSoup
+
+[→ View Repository](https://github.com/BELBINBENORM/Scraper-BRICS-Expansion-De-Dollarization-Tracker)
+
+### 💰 Global Sovereign Debt Crisis Monitor
+
+Python · Web Scraping · Requests · BeautifulSoup
+
+[→ View Repository](https://github.com/BELBINBENORM/Scraper-Global-Sovereign-Debt-Crisis-Monitor)
+
+### 🧠 Global Mental Health Crisis Tracker
+
+Python · Web Scraping · Requests · BeautifulSoup
+
+[→ View Repository](https://github.com/BELBINBENORM/Scraper-Global-Mental-Health-Crisis-Tracker)
+
+### 🍎 Food Price Dataset
+
+Python · Data Analysis
+
+[→ View Repository](https://github.com/BELBINBENORM/food-price-dataset)
+
+The portfolio dataset confirms these four GitHub projects and their URLs.
+
+---
+
+# 🏆 MACHINE LEARNING
+
+My ML work focuses heavily on **model diversity, validation and ensemble optimization**.
 
 ```text
 XGBoost
+   │
 LightGBM
+   │
 CatBoost
+   │
 HistGradientBoosting
+   │
 Logistic Regression
-        ↓
-     RidgeCV
-   Meta Learner
+   │
+   ▼
+STACKING
+   │
+   ▼
+META LEARNER
 ```
 
-Achieved a **0.9536 AUC** in the documented project work using OOF validation and custom Scikit-learn transformers.
+### Core techniques
 
-The project focuses on model stability, feature engineering, model-specific transformations and rigorous validation.
+`Stratified K-Fold`
 
----
+`Out-of-Fold Prediction`
 
-## Document Intelligence & RAG
+`Nested Stacking`
 
-A Retrieval-Augmented Generation system for extracting insights from unstructured PDF reports and technical documentation.
+`Feature Engineering`
 
-**Stack**
+`Optuna`
 
-`Python` · `LangChain` · `pgvector` · `PostgreSQL`
-`OpenAI API` · `Embeddings` · `FastAPI`
+`SHAP`
 
-The documented implementation focused on semantic retrieval, grounded summaries and intelligent document chat workflows.
+`LIME`
 
----
+`Model Explainability`
 
-# 🧪 Kaggle × Machine Learning
+`Time Series Forecasting`
 
-I use Kaggle as an experimentation environment for structured machine learning, ensemble optimization and feature engineering.
-
-Areas I work with:
-
-```text
-Feature Engineering
-        ↓
-Cross Validation
-        ↓
-OOF Predictions
-        ↓
-Model Diversity
-        ↓
-Stacking / Voting
-        ↓
-Hyperparameter Optimization
-        ↓
-Explainability
-```
-
-Techniques include:
-
-* Stratified K-Fold validation
-* Nested stacking
-* Out-of-Fold prediction
-* XGBoost / LightGBM / CatBoost
-* Optuna optimization
-* Feature selection
-* Outlier handling
-* SHAP / LIME
-* Model interpretation
-
-I also publish datasets covering financial markets, inflation, recession risk, trade wars, cryptocurrency sentiment and other economic indicators.
-
-**Kaggle:**
-https://www.kaggle.com/belbino
+The portfolio data specifically records these as demonstrated skills and areas of work.
 
 ---
 
-# 🛠️ Selected GitHub Work
+# 🧪 KAGGLE
 
-### AI / Backend
+### Data Science • Experiments • Models • Research
 
-**AI Knowledge Platform**
-FastAPI · PostgreSQL · pgvector · RAG · Agents · Docker · pytest
+<a href="https://www.kaggle.com/belbino">
+<img src="https://img.shields.io/badge/⚡_EXPLORE_MY_KAGGLE-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+</a>
 
-### Data Intelligence
+My Kaggle work includes:
 
-**Vortex Intelligence Suite**
-Python · Data Analysis
+**Machine Learning**
 
-**Vortex KFold Engine**
-Python · Machine Learning · Cross Validation
+**Feature Engineering**
 
-### Machine Learning
+**Ensemble Modeling**
 
-**Safe Stack ML**
-Python · Machine Learning · Gradient Boosting
+**Cross Validation**
 
-**Evaluate Classification ML**
-Python · Scikit-learn
+**Forecasting**
 
-**Evaluate Regression ML**
-Python · Scikit-learn
+**Data Analysis**
 
-**Mission Control ML**
-Python · Scikit-learn
+**Web Scraping**
 
-**ModelBlocks ML MVP**
-Python · Scikit-learn
+I also publish curated datasets covering areas such as:
 
-### Data Engineering / Research
+* Cryptocurrency fear & sentiment
+* Financial news sentiment
+* Inflation and interest rates
+* US recession probability
+* Economic and market indicators
 
-**BRICS Expansion & De-Dollarization Tracker**
-Python · Requests · BeautifulSoup
-
-**Global Sovereign Debt Crisis Monitor**
-Python · Web Scraping
-
-**Global Mental Health Crisis Tracker**
-Python · Web Scraping
-
-**Food Price Dataset**
-Python · Data Analysis
-
-These repositories are part of the project portfolio documented in the source dataset.
+These datasets are recorded in the portfolio source data.
 
 ---
 
-# 🔬 Current Direction
+# ⚙️ ENGINEERING STACK
 
-I'm expanding from individual ML and RAG applications toward **production-oriented Agentic AI systems**.
+<div align="center">
 
-The next layer of my engineering work focuses on:
+### Languages
 
-```text
-Agent Orchestration
-       +
-Tool Calling
-       +
-MCP
-       +
-Advanced RAG
-       +
-Hybrid Retrieval
-       +
-Reranking
-       +
-Verification
-       +
-AI Evaluation
-       +
-Guardrails
-       +
-Observability
-```
+<img src="https://skillicons.dev/icons?i=python,sql" />
 
-The planned **AI Research & Decision Intelligence Platform** is designed around this architecture:
+### AI / ML
 
-```text
-                 USER
-                   │
-                   ▼
-                FastAPI
-                   │
-                   ▼
-           Agent Orchestrator
-                   │
-        ┌──────────┼──────────┐
-        ▼          ▼          ▼
-     Planner    Researcher   Analyst
-        │          │          │
-        └──────────┼──────────┘
-                   ▼
-                Tools
-       ┌───────────┼────────────┐
-       ▼           ▼            ▼
-      RAG         SQL        Research
-       │           │            │
-       └───────────┼────────────┘
-                   ▼
-             Verification
-                   │
-                   ▼
-       Answer + Sources + Confidence
-```
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
 
-The project plan specifically targets MCP, advanced retrieval, reranking, claim verification, evaluation, guardrails, observability, Docker and production API architecture.
+`Scikit-learn` `XGBoost` `LightGBM` `CatBoost`
+
+`LangChain` `RAG` `LLMs` `Embeddings`
+
+### Backend
+
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,docker,git,github" />
+
+`Pydantic` `SQLAlchemy` `REST APIs` `pgvector`
+
+### Data
+
+`Pandas` `NumPy` `Power BI` `Excel` `Tableau`
+
+</div>
 
 ---
 
-# 📊 Engineering Philosophy
+# 🧠 SKILLS → EVIDENCE
 
-I like building systems where every component has a reason to exist.
+I prefer showing what I can **build**, rather than listing technologies without context.
 
-```text
-Problem
-   ↓
-Data
-   ↓
-Experiment
-   ↓
-Model
-   ↓
-Evaluation
-   ↓
-API
-   ↓
-System
-   ↓
-Result
-```
+| Skill               | Evidence                                  |
+| ------------------- | ----------------------------------------- |
+| 🐍 Python           | ML · APIs · Automation · Scraping · AI    |
+| 🤖 Machine Learning | Ensembles · XGBoost · LightGBM · CatBoost |
+| 🧠 RAG              | AI Knowledge Platform                     |
+| 🗄️ PostgreSQL      | AI Knowledge Platform                     |
+| 🔎 pgvector         | Vector retrieval                          |
+| ⚡ FastAPI           | AI/backend APIs                           |
+| 🧩 Agents           | AI Knowledge Platform                     |
+| 🐳 Docker           | AI application deployment                 |
+| 🧪 Pytest           | AI application testing                    |
+| 📊 Power BI         | Analytics & KPI reporting                 |
+| 🔧 SQL              | Data analysis + backend workflows         |
 
-That means I care about more than model accuracy.
-
-I also care about:
-
-**reproducibility · validation · retrieval quality · API design · system reliability · testing · deployment**
+Your source data explicitly connects these skills to projects and evidence rather than merely listing them.
 
 ---
 
-# 💼 Professional Background
+# 📈 PROFESSIONAL EXPERIENCE
 
 ### Quantitative Analyst
 
-**Adroit Design India Pvt Ltd · Chennai**
+**Adroit Design India Pvt Ltd**
 
-Worked across project analytics, cost estimation, resource planning, KPI reporting and workflow automation.
+Strategic resource planning · Project analytics · Cost estimation · KPI reporting · Python automation
 
-Built Python-based data processing and analytical workflows to modernize Excel-heavy processes, with documented reduction in manual processing time of **40%**.
+Built Python-based workflows that reduced manual processing time by **40%** according to the documented experience data.
 
 ### Machine Learning Practitioner
 
-**Kaggle · 2023 – Present**
+**Kaggle · 2023 → Present**
 
-Focused on competitive machine learning, ensemble modeling, feature engineering, validation strategies and model explainability.
+Competitive modeling · Ensemble optimization · Feature engineering · Cross-validation · SHAP/LIME
 
 ---
 
-# 🎓 Education
+# 🎓 EDUCATION
 
-**B.E. Computer Science Engineering**
-Anna University · 2024
+### B.E. Computer Science & Engineering
+
+**Anna University**
+
 **CGPA: 8.53**
 
-**PGP – Data Analytics & Data Science**
-Skill-Lync · 2024
+### PGP — Data Analytics & Data Science
 
-Certifications include:
-
-* Advanced Machine Learning & Deep Learning
-* SQL for Data Science
-* Core & Advanced Python Programming
+**Skill-Lync**
 
 ---
 
-# 🌐 Find Me
 
-**GitHub**
-https://github.com/BELBINBENORM
+# 🌐 THE FULL PORTFOLIO
 
-**LinkedIn**
-https://www.linkedin.com/in/belbino/
+<div align="center">
 
-**Kaggle**
-https://www.kaggle.com/belbino
+## Explore the complete interactive portfolio
 
-**HackerRank**
-https://www.hackerrank.com/profile/belbinbenorm2002
+<a href="https://belbin-beno-rm-portfolio.vercel.app/">
+<img src="https://img.shields.io/badge/🌌_BENO_DATA_UNIVERSE-EXPLORE-111111?style=for-the-badge" />
+</a>
 
-**LeetCode**
-https://leetcode.com/u/belbinbenorm2002/
+<br/><br/>
 
-**Email**
-[belbin.datascientist@gmail.com](mailto:belbin.datascientist@gmail.com)
+**DATA → ML → GENAI → AI ENGINEERING → SYSTEMS**
+
+</div>
 
 ---
 
-## `BUILD SOMETHING USEFUL.`
+# 🤝 CONNECT
 
-**Data · Machine Learning · Generative AI · AI Engineering**
+<div align="center">
+
+<a href="https://www.linkedin.com/in/belbino/">LinkedIn</a>
+  •   <a href="https://github.com/BELBINBENORM">GitHub</a>
+  •   <a href="https://www.kaggle.com/belbino">Kaggle</a>
+  •   <a href="https://www.hackerrank.com/profile/belbinbenorm2002">HackerRank</a>
+  •   <a href="https://leetcode.com/u/belbinbenorm2002/">LeetCode</a>
+
+<br/><br/>
+
+<a href="mailto:belbin.datascientist@gmail.com">
+<img src="https://img.shields.io/badge/📩_EMAIL-belbin.datascientist%40gmail.com-111111?style=for-the-badge" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### `BUILD SOMETHING USEFUL.`
+
+**Data × Machine Learning × Generative AI × AI Engineering**
+
+</div>
