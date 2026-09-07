@@ -31,11 +31,15 @@ I build across the full pipeline from raw data to production AI systems - data c
 
 ---
 
-## 🚀 Featured: AI Knowledge Platform
+## 🚀 Featured: RAGForge
 
-**[ai-knowledge-platform](https://github.com/BELBINBENORM/ai-knowledge-platform)** - a RAG platform built around document ingestion, chunking, embeddings, semantic retrieval and grounded LLM/agent responses.
+**[RAGForge](https://github.com/BELBINBENORM/ragforge)** is an end-to-end AI knowledge platform for document ingestion, semantic search, Retrieval-Augmented Generation (RAG), and LLM-powered agent tooling.
 
-`FastAPI` `Pydantic` `SQLAlchemy` `PostgreSQL` `pgvector` `Ollama / Llama 3.2` `RAG` `Agents & Tools` `pytest` `Docker`
+The system is built as a production-oriented FastAPI backend with PostgreSQL/pgvector for vector storage and Google Gemini for generation.
+
+**Live API:** [RAGForge](https://ragforge-htnl.onrender.com/)
+
+**Interactive API Docs:** [Swagger UI](https://ragforge-htnl.onrender.com/docs)
 
 ```
 Documents → Ingestion → Chunking → Embeddings → pgvector → Semantic Search → RAG → LLM/Agent → Grounded Answer
@@ -47,7 +51,7 @@ Documents → Ingestion → Chunking → Embeddings → pgvector → Semantic Se
 
 | Project | Description |
 |---|---|
-| **[ai-knowledge-platform](https://github.com/BELBINBENORM/ai-knowledge-platform)** | FastAPI + PostgreSQL + pgvector RAG platform with LLM agents and tool use |
+| **[RAGForge](https://github.com/BELBINBENORM/ai-knowledge-platform)** | FastAPI + PostgreSQL + pgvector RAG platform with LLM agents and tool use |
 | **[ai_document_intelligence](https://github.com/BELBINBENORM/ai_document_intelligence)** | Document intelligence system, containerized with Docker |
 | **[ai_customer_support_platform](https://github.com/BELBINBENORM/ai_customer_support_platform)** | AI-powered customer support platform in Python |
 
