@@ -30,21 +30,30 @@
 I build across the full pipeline from raw data to production AI systems - data collection and pipelines, classical ML and ensembling, and generative AI applications (RAG, LLM agents, vector search). Most of my recent work centers on turning ML experimentation into repeatable, engineered tooling rather than one-off notebooks.
 
 ---
-
 ## 🚀 Featured: RAGForge
 
-**[RAGForge](https://github.com/BELBINBENORM/ragforge)** is an end-to-end AI knowledge platform for document ingestion, semantic search, Retrieval-Augmented Generation (RAG), and LLM-powered agent tooling.
+**[RAGForge](https://github.com/BELBINBENORM/ragforge)** is an end-to-end **Agentic RAG platform** combining document ingestion, semantic search, conversational memory, **LLM agents, and Model Context Protocol (MCP)**.
 
-The system is built as a production-oriented FastAPI backend with PostgreSQL/pgvector for vector storage and Google Gemini for generation.
+Built with **FastAPI, PostgreSQL/pgvector, Sentence Transformers, and Google Gemini**, the system uses an AI agent that can dynamically discover and invoke MCP tools for document retrieval and conversation history.
 
 **Live API:** [RAGForge](https://ragforge-htnl.onrender.com/)
 
 **Interactive API Docs:** [Swagger UI](https://ragforge-htnl.onrender.com/docs)
 
+```text
+Documents → Embeddings → pgvector
+                         ↓
+User → FastAPI → Gemini Agent → MCP Client → MCP Server
+                                           ↓
+                              ┌────────────┴────────────┐
+                              ↓                         ↓
+                       Search Documents        Conversation History
+                              ↓                         ↓
+                           pgvector                PostgreSQL
+                              └────────────┬────────────┘
+                                           ↓
+                                    Grounded Answer
 ```
-Documents → Ingestion → Chunking → Embeddings → pgvector → Semantic Search → RAG → LLM/Agent → Grounded Answer
-```
-
 ---
 
 ## 🧠 AI & Generative AI
