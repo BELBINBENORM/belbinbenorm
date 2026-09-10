@@ -55,7 +55,34 @@ User → FastAPI → Gemini Agent → MCP Client → MCP Server
                                     Grounded Answer
 ```
 ---
+## 🚧 Current Project: AegisAI
 
+**[AegisAI](https://github.com/BELBINBENORM/aegisai)** is an ongoing production-oriented multi-agent AI platform designed to go beyond traditional RAG and single-agent systems.
+
+It combines Advanced RAG, multi-agent orchestration, remote MCP, agent memory, planning, reflection, verification, GenAI security, evaluation, observability, streaming, caching, background processing, authentication, and automated testing.
+
+Built with FastAPI, PostgreSQL/pgvector, Sentence Transformers, Google Gemini, Redis, and Docker, AegisAI is being developed incrementally with a focus on understanding the underlying AI engineering architecture rather than relying blindly on frameworks.
+
+Status: 🚧 Ongoing Project
+```text
+                                              ┌───────────────────────────────┐
+                                     ┌────────┴───────────┐                   ↓
+     User Request                    ↑                    ↑                 Memory
+          ↓                      Reranking             MCP Tools              ↓
+    Authentication                   ↑                    ↑              Agent Reasoning
+          ↓                    Hybrid Search          Remote MCP              ↓
+       FastAPI                ┌──────┴──────┐                          Verification Agent
+          ↓                   ↑             ↑             ↑                   ↓
+    Supervisor Agent         RAG        Research      Tool Agent         Human Approval
+          ↓                   └─────────────┼─────────────┘                   ↓
+          └─────────────────────────────────┘                            Final Answer
+                                                                      ┌───────┼────────────┐
+                                                                      ↓       ↓            ↓
+                                                                    Eval  Observability  Memory
+```
+AegisAI is the advanced counterpart to RAGForge, progressing from RAG + single-agent systems toward production-oriented Agentic AI engineering.
+
+---
 ## 🧠 AI & Generative AI
 
 | Project | Description |
