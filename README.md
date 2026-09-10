@@ -36,8 +36,6 @@ I build across the full pipeline from raw data to production AI systems - data c
 
 Built with **FastAPI, PostgreSQL/pgvector, Sentence Transformers, and Google Gemini**, the system uses an AI agent that can dynamically discover and invoke MCP tools for document retrieval and conversation history.
 
-**Live API:** [RAGForge](https://ragforge-htnl.onrender.com/)
-
 **Interactive API Docs:** [Swagger UI](https://ragforge-htnl.onrender.com/docs)
 
 ```text
