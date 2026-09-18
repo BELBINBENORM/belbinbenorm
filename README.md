@@ -204,7 +204,7 @@ I build **automated data pipelines and continuously updated datasets**, includin
 
 **Adroit Design India Pvt Ltd**
 
-Python automation for resource planning, cost estimation, and KPI reporting.
+Resource planning, cost estimation, and KPI reporting.
 
 ---
 
