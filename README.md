@@ -42,14 +42,13 @@ Instead of multiple autonomous agents, AegisAI uses **one Main Agent** responsib
 ### Core Architecture
 
 ```text
-┌──────┐     ┌─────────────┐     ┌─────────────────────────────────┐     ┌─────┐
-│ User │ ──► │   FastAPI   │ ──► │           Main Agent            │ ──► │ MCP │
-└──────┘     │  Auth / API │     │ Planning, Reasoning, Tool Use   │     └──┬──┘
-             └─────────────┘     └─────────────────────────────────┘        │
-                                                                            ├─► [ RAG ] ────────┐
-                                                                            ├─► [ Memory ] ─────┼─► ┌──────────────┐     ┌──────────────┐
-                                                                            └─► [ Web Search ] ─┘   │ Verification │ ──► │ Final Answer │
-                                                                                                    └──────────────┘     └──────────────┘
+┌──────┐     ┌─────────────┐     ┌────────────┐     ┌─────┐
+│ User │ ──► │   FastAPI   │ ──► │ Main Agent │ ──► │ MCP │
+└──────┘     │  Auth / API │     │ Planning,  │     └──┬──┘
+             └─────────────┘     │ Reasoning, │        │                                            ┌────────┐     
+                                 │ Tool Use   │        ├─► [ RAG ] ────────┐   ┌──────────────┐     │ Final  │              
+                                 └────────────┘        ├─► [ Memory ] ─────┼─► │ Verification │ ──► │ Answer │
+                                                       └─► [ Web Search ] ─┘   └──────────────┘     └────────┘
 ```
 
 ### Engineering Highlights
