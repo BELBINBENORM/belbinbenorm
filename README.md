@@ -45,8 +45,8 @@ Instead of multiple autonomous agents, AegisAI uses **one Main Agent** responsib
 ┌──────┐     ┌─────────────┐     ┌────────────┐     ┌─────┐
 │ User │ ──► │   FastAPI   │ ──► │ Main Agent │ ──► │ MCP │
 └──────┘     │  Auth / API │     │ Planning,  │     └──┬──┘
-             └─────────────┘     │ Reasoning, │        │                                            ┌────────┐     
-                                 │ Tool Use   │        ├─► [ RAG ] ────────┐   ┌──────────────┐     │ Final  │              
+             └─────────────┘     │ Reasoning, │        │                                            ┌────────┐
+                                 │ Tool Use   │        ├─► [ RAG ] ────────┐   ┌──────────────┐     │ Final  │
                                  └────────────┘        ├─► [ Memory ] ─────┼─► │ Verification │ ──► │ Answer │
                                                        └─► [ Web Search ] ─┘   └──────────────┘     └────────┘
 ```
